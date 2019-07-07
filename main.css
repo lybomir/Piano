@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.buttonA,
+.buttonS,
+.buttonD,
+.buttonF,
+.buttonG,
+.buttonH,
+.buttonJ,
+.buttonK {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: white;
+    width: 10%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
